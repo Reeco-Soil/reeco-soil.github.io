@@ -37,7 +37,7 @@ main {
     background-color: var(--background-color);
     color: var(--text-color);
     margin-left: 20vw;
-    margin-right: 10vw;
+    margin-right: 15vw;
     margin-top: 10vw;
     margin-bottom: 10vw;
 }
@@ -347,7 +347,7 @@ li {
 .key-block {
     background-color: var(--primary-color);
     color: var(--background-color);
-    width: 300px;
+    width: 50vw;
     margin: 40px auto; /* Centers the block horizontally */
     padding: 20px;
     border-radius: 15px;
