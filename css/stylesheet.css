@@ -115,7 +115,7 @@ footer {
     margin-top: 5vw;
     margin-bottom: 10vw;
     z-index: 10;
-  }
+}
 
 #logo {
     height: 30vw;
@@ -286,7 +286,7 @@ li {
 .member-block {
     background-color: var(--primary-color);
     color: var(--background-color);
-    width: 300px;
+    width: 50vw;
     margin: 40px auto; /* Centers the block horizontally */
     padding: 20px;
     border-radius: 15px;
@@ -405,6 +405,22 @@ li {
   display: block;
 }
 
+#publication_container {
+    position: relative; /* Required for absolute positioning inside */
+    height: 35vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    z-index: 10;
+}
+#publication_item {
+    height: 30vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-bottom: 1rem;
+}
+
 
 
 /* Responsive Design */
@@ -434,7 +450,7 @@ li {
         margin-top: 5vw;
         margin-bottom: 2vw;
         z-index: 10;
-      }
+    }
     
     #logo {
         height: 20vw;
@@ -478,6 +494,22 @@ li {
         margin-bottom: 4rem;
     }
     #logo_small {
+        height: 10vw;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin-bottom: 1rem;
+    }
+
+    #publication_container {
+        position: relative; /* Required for absolute positioning inside */
+        height: 15vw;
+        margin-top: 0.1vw;
+        margin-bottom: 0.1vw;
+        z-index: 10;
+      }
+    #publication_item {
         height: 10vw;
         position: absolute;
         top: 50%;
